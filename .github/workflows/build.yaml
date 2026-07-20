@@ -9,7 +9,7 @@ on:
 jobs:
   maven_build:
     runs-on: ubuntu-latest
-    if: ${{ github.ref_name == "main" }}
+    if: ${{ github.ref_name == 'main' }}
     steps:
       - name: checkout-repo branch
         uses: actions/checkout@v7
