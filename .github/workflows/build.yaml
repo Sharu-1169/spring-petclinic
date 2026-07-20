@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v7
 
       - name: java install
-        run: 
+        run: |
           sudo apt-get install openjdk-17-jdk -y
           sudo apt install maven -y
